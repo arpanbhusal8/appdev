@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".rulebook"
-    android:background="@color/white"
+    android:background="@drawable/gradient2"
     >
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/rulebookheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rules of Hostel"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/rulebookline1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rulebookheader"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/rulebookline1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="1.) Ragging is not allowed in the hostel premises.Ragging is a crime that is punishable by law upto 2000rs fine and 2 years imprisonment"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="2.) Breaking Hostel's utility tools and anything owned by the Hostel is strictly prohibited and if found guilty,fine is allocated"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="3.)Throwing food is strictly prohibited."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="4.) Using plastics in the hostel premises is strictly prohibited"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="5.) Ordering food after 11pm is not allowed"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="6.)You cannot bring cakes inside the hostel premises"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="7.)Cooking food inside the hostel is not allwoed"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="8.)Smoking inisde the hostel premises is not allowed"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14dp"
+            android:text="9.)Consuming of drugs or even holding it inside the hostel is punishable by law and is strictly prohibited"></TextView>
+
+    </LinearLayout>
 
 
-</FrameLayout>
+</RelativeLayout>

@@ -4,15 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/drawable/gradient.xml" value="0.146" />
+        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/drawable/gradient2.xml" value="0.146" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/drawable/ic_accounting.xml" value="0.146" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/drawable/ic_complaints.xml" value="0.118" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/drawable/ic_rule_book.xml" value="0.1" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_accounting.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_accounting.xml" value="0.264" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_complaints.xml" value="0.17889492753623187" />
-        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_contacts.xml" value="0.17889492753623187" />
-        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_rulebook.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_contacts.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/layout/fragment_rulebook.xml" value="0.176" />
         <entry key="..\:/Users/Acer/Desktop/arpan/noticeboard5/app/src/main/res/menu/bottom_nav_menu.xml" value="0.253125" />
       </map>
     </option>
