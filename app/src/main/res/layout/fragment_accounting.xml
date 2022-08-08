@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".accounting"
-    android:background="@color/material_dynamic_tertiary20">
+    tools:context=".complaints"
+    android:background="@color/purple_700">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="accounting fragment"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:text="accounting fragment" />
 
 </FrameLayout>
