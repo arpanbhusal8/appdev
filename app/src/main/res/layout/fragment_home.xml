@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home"
-    android:background="@drawable/gradient">
+    android:background="@drawable/ic_accup">
     <TextView
         android:id="@+id/head"
         android:layout_width="wrap_content"
@@ -36,10 +36,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:layout_margin="20dp"
-            app:cardBackgroundColor="#6480B1"
-            app:cardCornerRadius="20dp"
-            app:cardMaxElevation="20dp">
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#40ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -51,16 +52,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:id="@+id/ntic1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="Reconfiguration of the server is going on and the internet will be down from 2pm to 10pm today,sorry for the inconvenience caused"
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -68,16 +70,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:id="@+id/ntic2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="Hostel lift will be serviced for the next few days please take the stairs and bear with us"
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -85,15 +88,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="Carpenter will be coming to the hostel tomorrow please register your complaints and issues in the complaints section so that they can be tend to"
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
@@ -124,8 +128,9 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_margin="20dp"
-            app:cardBackgroundColor="#143D85"
-            app:cardCornerRadius="20dp">
+            app:cardBackgroundColor="#30ffffff"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -137,15 +142,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="Rakchhya Bandhan incoming and we will be having a hostelite exclusive event in the mph ,please don't miss it."
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -153,15 +159,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="Dushera incoming,Mutton will be cooked for non-veg hostelites and for vegeterian hostelites,paneer"
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -169,15 +176,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="12dp"
-                    app:cardBackgroundColor="#B8C0CF"
-                    app:cardCornerRadius="20dp"
-                    app:cardMaxElevation="20dp">
+                    app:cardBackgroundColor="#FFBDD5E8"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textColor="@color/black"
+                        android:padding="4dp"
                         android:text="This Independence day 2022,we will pay tribute to all those who lost their lives for the freedom of India by lighting candle at 5pm infront of mph"
-                        android:padding="4dp"></TextView>
+                        android:textColor="@color/black"></TextView>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
